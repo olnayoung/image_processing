@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "est-models"
+version = "1.0.0"
+description = ""
+authors = ["jinwonkim <jw93@estsoft.com>", "leesoyoon <olnayoung@estsoft.com>"]
+readme = "README.md"
+packages = [{from = "src", include = "est_models"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+huggingface-hub = "^0.17.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

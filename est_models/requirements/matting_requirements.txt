@@ -1,0 +1,3 @@
+onnxruntime
+transformers>=4.34.0
+torch
